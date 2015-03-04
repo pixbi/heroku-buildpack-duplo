@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if [ type cabal ]; then
+  echo "Installing duplo"
+else
+  echo "cabal required"
+  exit 1
+fi
